@@ -1,0 +1,14 @@
+* Generate Christmas list Permutations
+
+You have to create the link manually, like so:
+
+https://langmartin.github.io/christmas-list/?f1=Alice&f1=Bob&f2=Chuck&f2=David&f3=Ethel&f4=Fred&s=1&y=4
+
+- Each =fN= is a family, aka people who shouldn't give each other gifts
+- The family structure is printed by the page, so you can check it
+- =s= is similarity, or how many allowed duplicate gift relationships
+  the output can contain
+- =y= is the number of years to output
+
+The =s= and =y= parameters can cause the stack to overflow, so if you
+just get a blank page, that's what happened.
